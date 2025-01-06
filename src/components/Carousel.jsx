@@ -33,7 +33,7 @@ function Carousel() {
           {"<"}
         </button>
         {/* Bild */}
-        <div className="relative w-[80%] h-[80%] pr-12">
+        <div className="relative w-[80%] h-[80%] pr-12 rounded-2x">
           <img
             src={images[current]}
             alt={`Slide ${current}`}
